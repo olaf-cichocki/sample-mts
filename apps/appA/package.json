@@ -1,0 +1,22 @@
+{
+  "name": "app-a",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "nx build --verbose",
+    "build-rspack": "rspack build"
+  },
+  "devDependencies": {
+    "@rspack/cli": "1.0.5"
+  },
+  "nx": {
+    "includedScripts": []
+  },
+  "volta": {
+    "node": "20.16.0",
+    "pnpm": "9.7.1"
+  }
+}

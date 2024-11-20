@@ -1,0 +1,19 @@
+{
+  "name": "nx-test-temp",
+  "version": "1.0.0",
+  "type": "module",
+  "devDependencies": {
+    "@nx/rspack": "20.0.11",
+    "@rspack/cli": "1.0.5",
+    "@rspack/core": "1.0.5",
+    "nx": "20.0.11"
+  },
+  "nx": {
+    "includedScripts": []
+  },
+  "private": true,
+  "volta": {
+    "node": "20.16.0",
+    "pnpm": "9.7.1"
+  }
+}
